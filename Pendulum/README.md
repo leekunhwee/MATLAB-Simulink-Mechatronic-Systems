@@ -7,14 +7,14 @@ $$-mgsin\theta - B_pL\dot{\theta} = mL\ddot{\theta}$$
 
 重写上式：
 
-$$ddot{\theta} + \frac{B_p}{m}\dot{\theta} + \frac{g}{L}sin\theta = 0$$
+$$\ddot{\theta} + \frac{B_p}{m}\dot{\theta} + \frac{g}{L}sin\theta = 0$$
 
 对于很小角度的单摆运动，可假设$sin\theta \approx \theta, cos\theta \approx 1$，故上式可改写为：
 
-$$ddot{\theta} + \frac{B_p}{m}\dot{\theta} + \frac{g}{L}\theta = 0$$
+$$\ddot{\theta} + \frac{B_p}{m}\dot{\theta} + \frac{g}{L}\theta = 0$$
 
 将上式简化为：
-$$ddot{\theta} = - \frac{B_p}{m}\dot{\theta} - \frac{g}{L}\theta = 0$$
+$$\ddot{\theta} = - \frac{B_p}{m}\dot{\theta} - \frac{g}{L}\theta = 0$$
 在Simulink环境中建立框图模型“pendulum.lsx”。并在“pendulumm.m”文件中定义：$B_p=0.03;g=9.81;L=0.8;m=0.3$，并运行。
 
 设置初始角度的$1rad$，因存在阻尼，因此角度与角速度都渐渐趋近于零。
