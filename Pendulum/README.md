@@ -15,7 +15,8 @@ $$\ddot{\theta} + \frac{B_p}{m}\dot{\theta} + \frac{g}{L}\theta = 0$$
 
 将上式简化为：
 $$\ddot{\theta} = - \frac{B_p}{m}\dot{\theta} - \frac{g}{L}\theta$$
-在Simulink环境中建立框图模型“pendulum.lsx”。并在“pendulumm.m”文件中定义：$B_p=0.03;g=9.81;L=0.8;m=0.3$，并运行。
+在Simulink环境中建立框图模型“pendulum.slx”。并在“pendulumm.m”文件中定义：$B_p=0.03;g=9.81;L=0.8;m=0.3$，然后运行。
 
-设置初始角度的$1rad$，因存在阻尼，因此角度与角速度都渐渐趋近于零。
+设置初始角度的$1 rad$，因存在阻尼，因此角度与角速度都渐渐趋近于零。
+
 在Simulink环境中运行完成后，再运行“pendulumPlot.m”得到仿真图像。（注意Simulink输出的参数格式改为Array）
