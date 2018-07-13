@@ -1,8 +1,8 @@
 对于简单单摆系统，如下图所示，假设杆的长度为$L$且质量不计，钢球的质量为$m$，单摆的运动可以以线性的微分方程来近似，但事实上系统的行为是非线性的，而且存在粘滞阻尼，
 假设粘滞阻尼系数为${B_p}(kg/ms^{-1})$。
-
+<br>
 <div align="center">    
-<img src="Pendulum.png" width = "300" height = "300" alt="单摆系统" title="单摆系统" name="单摆系统">
+<img src="Pendulum.png" width = "300" height = "300" alt="单摆系统" title="单摆系统">
 </div>
 <p align="center"><b>单摆系统</b></p>
 <br>
@@ -26,3 +26,9 @@ $$\ddot{\theta} = - \frac{B_p}{m}\dot{\theta} - \frac{g}{L}\theta$$
 设置初始角度的$1 rad$，因存在阻尼，因此角度与角速度都渐渐趋近于零。
 
 在Simulink环境中运行完成后，再运行“pendulumPlot.m”得到仿真图像。（注意Simulink输出的参数格式改为Array）
+<br>
+<div align="center">    
+<img src="Block.png" width = "400" height = "300" alt="单摆运动变化图" title="单摆运动变化图">
+</div>
+<p align="center"><b>单摆运动变化图</b></p>
+<br>
