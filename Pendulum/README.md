@@ -1,7 +1,7 @@
 对于简单单摆系统，假设杆的长度为$L$且质量不计，钢球的质量为$m$，单摆的运动可以以线性的微分方程来近似，但事实上系统的行为是非线性的，而且存在粘滞阻尼，
 假设粘滞阻尼系数为${B_p}(kg/ms^{-1})$。
 
-https://github.com/leekunhwee/MATLAB-Simulink-Mechatronic-Systems/raw/master/Pendulum/Pendulum.png
+https://raw.githubusercontent.com/leekunhwee/MATLAB-Simulink-Mechatronic-Systems/master/Pendulum/Pendulum.png
 
 $\theta$为杆摆动的角度，钢球末端的速度为$L\dot{\theta}$，切线方向的受力使钢球产生切向加速度，$L\ddot{\theta}$，按照牛顿第二定律，可以写成单摆系统的运动方程：
 
