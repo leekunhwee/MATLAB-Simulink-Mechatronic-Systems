@@ -2,8 +2,10 @@
 假设粘滞阻尼系数为${B_p}(kg/ms^{-1})$。
 
 <div align="center">    
-<img src="https://github.com/leekunhwee/MATLAB-Simulink-Mechatronic-Systems/raw/master/Pendulum/Pendulum.png" width = "300" height = "300" alt="单摆系统">
+<img src="Pendulum.png" width = "300" height = "300" alt="单摆系统" title="单摆系统" name="单摆系统">
 </div>
+<center><b>单摆系统</b></center>
+<br>
 
 $\theta$为杆摆动的角度，钢球末端的速度为$L\dot{\theta}$，切线方向的受力使钢球产生切向加速度，$L\ddot{\theta}$，按照牛顿第二定律，可以写成单摆系统的运动方程：
 
